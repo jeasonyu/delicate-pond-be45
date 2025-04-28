@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "delicate-pond-be45",
+  "compatibility_date": "2025-04-01",
+  "upload_source_maps": true,
+  "main": "./server.ts",
+  "assets": {
+    "directory": "./build/client"
+  },
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "TO_DO_LIST",
+      "id": "110736d5d0e44627a2bc6a0badc2a5d1"
+    }
+  ]
+}
